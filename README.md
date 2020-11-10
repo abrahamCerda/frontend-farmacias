@@ -1,9 +1,19 @@
 # frontend-farmacias
 
 ## Project setup
-```
-npm install
-```
+Clone the project and cd into the project root folder.
+~~~
+git clone https://github.com/abrahamCerda/backend-farmacias
+cd backend-farmacias
+~~~
+Install project dependencies
+~~~
+npm run install
+~~~
+Create .env file from the .env.example and replace with your enviroment values:
+~~~
+cp .env.example .env
+~~~
 
 ### Compiles and hot-reloads for development
 ```
